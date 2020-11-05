@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'Barra.dart';
+
 
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
@@ -7,11 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter layout demo'),
-        ),
         body: Center(
-          child: Text("que pasa"),
+          child: Barra(),
         ),
       ),
     );
